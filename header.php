@@ -1,5 +1,5 @@
-       
-      
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">     
 <head>
     <!--required meta tags-->
     <meta charset="utf-8">
@@ -51,7 +51,7 @@
         <header class="main-header position-absolute w-100">
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
-                    <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="<?php echo get_home_url()?>" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
                         <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
                     </a>
@@ -67,9 +67,9 @@
                                     خانه
                                 </a>
                             </li>
-                            <li><a href="services.html" class="nav-link">خدمات</a></li>
+                            <li><a href="services.html" class="nav-link">مقالات آموزشی</a></li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="#price" role="button" data-bs-toggle="dropdown" aria-expanded="false">تعرفه ها</a>
+                                <a class="nav-link " href="#price" >تعرفه ها</a>
 
                             </li>
                             <li><a href="#faq" class="nav-link">سوالات متداول</a></li>
@@ -82,7 +82,7 @@
 
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
                         <!-- <a href="login.html" class="btn btn-link text-decoration-none me-2">ورود</a> -->
-                        <a href="request-demo.html" class="btn btn-primary">درخواست</a>
+                        <a href="#price" class="btn btn-primary">خرید سرویس</a>
                     </div>
 
                     <!--offcanvas menu start-->
@@ -104,7 +104,7 @@
                                     </div>
                                     </div>
                                 </li>
-                                <li><a href="services.html" class="nav-link">خدمات</a></li>
+                                <li><a href="services.html" class="nav-link">مقالات آموزشی</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link " href="#price" role="button" >تعرفه ها</a>
 

@@ -1,58 +1,17 @@
 ﻿<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="fa" dir="rtl">
 
-<head>
-    <!--required meta tags-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-    <!--twitter og-->
-    <meta name="twitter:site" content="@themetags">
-    <meta name="twitter:creator" content="@themetags">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Quiety - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
-    <meta name="twitter:description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
-    <meta name="twitter:image" content="#">
-
-    <!--facebook og-->
-    <meta property="og:url" content="#">
-    <meta name="twitter:title" content="Quiety - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
-    <meta property="og:description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
-    <meta property="og:image" content="#">
-    <meta property="og:image:secure_url" content="#">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="600">
-
-    <!--meta-->
-    <meta name="description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
-    <meta name="author" content="ThemeTags">
-
-    <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
-
-    <!--title-->
-     <title>کیوتی -  قالب نرم افزار و راه حل های ای تی،  اچ تی ام ال</title>
-
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
-
-    <!--build:css-->
-    <link rel="stylesheet" href="assets/css/main-rtl.css">
-    <!-- endbuild -->
-
-    <!--custom css start-->
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <!--custom css end-->
-
-</head>
-
+<body>
+    
+</body>
+</html>
+<?php get_header()?>
 <body>
 
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon">
+            <img src="<?php echo get_template_directory_uri()?>/assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon">
             <div class="loading-bar"></div>
         </div>
     </div>
@@ -79,26 +38,26 @@
                             <!--animated shape start-->
                             <ul class="position-absolute animate-element parallax-element circle-shape-list">
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
                                 </li>
                             </ul>
                             <!--animated shape end-->
-                            <img src="assets/img/hero-1.png" alt="hero img" class="img-fluid position-relative z-5">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/vpnimage.png" alt="hero img" class="img-fluid position-relative z-5">
                         </div>
                     </div>
                 </div>
@@ -109,14 +68,7 @@
     </div>
     <!--main content wrapper end-->
 
-    <!--all script file-->
-    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/parallax.min.js"></script>
-    <script src="assets/js/vendors/aos.js"></script>
-    <script src="assets/js/app.js"></script>
+<?php get_footer() ?>
 
 </body>
 

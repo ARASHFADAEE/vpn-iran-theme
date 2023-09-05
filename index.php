@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+﻿
 
 
 <body>
@@ -25,19 +24,19 @@
                     <div class="col-lg-6 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
                             <h1 class="fw-bold display-5">وی پی ان ایران بدون محدودیت</h1>
-                            <p class="lead"> خرید vpn ایران بدون محدودیت و یدون مشکل در اتصال  </p>
+                            <p class="lead"> خرید vpn ایران بدون محدودیت و بدون مشکل در اتصال  </p>
                             <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                                <a href="request-demo.html" class="btn btn-primary me-3">درخواست تست</a>                            </div>
+                                <a href="#price" class="btn btn-primary me-3">خرید سرویس</a>                            </div>
                             <div class="row justify-content-lg-start mt-60">
-                                <h6 class="text-white-70 mb-2">مشتریان برتر ما</h6>
+                                <h6 class="text-white-70 mb-2 pd">سرویس های متصل</h6>
                                 <div class="col-4 col-sm-3 my-2 ps-lg-0">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-1.svg" alt="client" class="img-fluid">
+                                    <img id="filimo" src="<?php echo get_template_directory_uri()?>/assets/img/clients/fa-filimo-dark-logo.png" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-2.svg" alt="client" class="img-fluid">
+                                    <img id="melofilm" src="<?php echo get_template_directory_uri()?>/assets/img/clients/logo-type.png" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-3.svg" alt="client" class="img-fluid">
+                                    <img id="filmnet" src="<?php echo get_template_directory_uri()?>/assets/img/clients/filmnet-logo.svg" alt="client" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -86,29 +85,74 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-5 col-12">
-                        <div class="faq-wrapper">
-                            <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary ms-2">1.</span> رویه برگشت پول چطور کار میکند؟</h5>
-                                <p> به طور مداوم الکترونیکی زنجیره های عرضه ارزان قیمت را فعال کنید.به طور موثر از لحاظ اقتصادی روش های توانمند سازی برای سناریوهای صوتی سینرژیک را حفظ کنید. </p>
-                            </div>
-                            <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary ms-2">2.</span> چگونه می توانم چقدر قیمت را محاسبه کنم؟</h5>
-                                <p> سفارشی قبل از کلیک کردن و همکاری مشارکت.به طور موثر حفظ سناریوهای اقتصادی از لحاظ اقتصادی و در حالی که به طور مداوم مبتنی بر مشتری است. </p>
-                            </div>
-                            <div class="faq-item">
-                                <h5><span class="h3 text-primary ms-2">3.</span> آیا می توانید یک مثال به من نشان دهید؟</h5>
-                                <p> به طور پویا تجسم در حالی که روابط رقابتی.به طور مداوم معیار مشارکت های سفارشی، مزایای متقابل را به وجود می آورد و نه سناریوهای صوتی و هماهنگی های قوی.</p>
+                <div class="row justify-content-center">
+                        <div class="col-lg-7 col-12">
+                            <div class="accordion faq-accordion" id="accordionExample">
+                                <div class="accordion-item border border-2 active">
+                                    <h5 class="accordion-header" id="faq-1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
+                                            رویه برگشت پول چطور کار میکند؟
+                                        </button>
+                                    </h5>
+                                    <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="faq-1" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            به طور چشمگیری محصولات متقاطع را با آیتم های فعال وب فعال می کند.به سرعت به حداکثر رساندن روش های قابل انعطاف توانمندسازی بدون ابتکارات خارج از جعبه.پیوند کامل عملکردی به جای اطلاعات بدون درز.به طور کلی طرح های به موقع را در برابر الزامات با کیفیت بالا ارائه می دهد.به طور مداوم محتوای منبع باز را از طریق خدمات مشتری حرفه ای مستقر کنید.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border border-2">
+                                    <h5 class="accordion-header" id="faq-2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
+                                            آیا می توانید یک مثال به من نشان دهید؟
+                                        </button>
+                                    </h5>
+                                    <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            به طور مداوم نوآوری منابع فنی داخلی و یا "ارگانیک" با محتوای موقعیت موقعیت بازار است.به طور کامل به طور کامل سرمایه فکری مطلوب را در برابر سرمایه انسانی جهانی به ارمغان می آورد.به طور ذاتی اداری مواد قوی و منابع خونریزی را مدیریت می کند.به طور پویا نسل بعدی برنامه های کاربردی مبتنی بر بازار
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border border-2">
+                                    <h5 class="accordion-header" id="faq-3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
+                                            چگونه می توانم پردازش کنم؟
+                                        </button>
+                                    </h5>
+                                    <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            پس از جوامع مجتمع، روش های تست تعاونی را ارائه می دهد.به طور چشمگیری ساده مدل های سطح منابع با برون سپاری منحصر به فرد را ساده می کند.حرفه ای به طور حرفه ای همکاری های را ساده تر در حالی که بهترین روش های بازار است.به طور مشترک از تکنولوژی مغناطیسی برای تکنولوژی قوی استفاده می کند.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border border-2">
+                                    <h5 class="accordion-header" id="faq-4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false">
+                                            چه اتفاقی می افتد اگر من بیش از حد لیمیت بروم؟
+                                        </button>
+                                    </h5>
+                                    <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            به طور قابل توجهی تسهیل پیشرفت های فرآیند بهره برداری برای زیرساخت های سرمایه گذاری سهام.به طور مداوم Mesh سرمایه انسانی بالا با برون سپاری سازگار با عقب.به طرز وحشیانه ای به واسطه معیارهای موازی هماهنگ می شود.به طور تعاملی از همگرایی هدایت مشتری و منابع موازی استفاده می شود.با مشتاقانه معمار خدمات الکترونیکی مشتری مرکزی در حالی که تجارت الکترونیک گرانول است.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border border-2">
+                                    <h5 class="accordion-header" id="faq-5">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false">
+                                            چگونه می توانم محاسبه کنم که چقدر پردازش نیاز دارم؟
+                                        </button>
+                                    </h5>
+                                    <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            به طور مشخص توانایی های برتر را از طریق مدل های موقعیت یابی بازار فعال می کند.به طور مشخص، پیشگامان منحصر به فرد را بدون ایده های گسترده ای گسترش می دهد.به طور عینی کاتالیزورهای چند منظوره را برای تغییر محتوای پایه نصب شده مستقر می کند.یکپارچه همگرایی رو به جلو را از طریق طرح های کیفیت ایجاد کنید.به طور عینی مهارت های رهبری رسانه های متقابل را از طریق منابع مشتری هدایت می کند.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/faq.svg" alt="faq" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <!--faq section end-->
