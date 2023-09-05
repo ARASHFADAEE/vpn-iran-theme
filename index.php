@@ -624,7 +624,7 @@
                                 </li>
                             </ul>
                             <!--animated shape end-->
-                            <img src="assets/img/hero-1.png" alt="hero img" class="img-fluid position-relative z-5">
+                            <img src="assets/img/vpnimage.png" alt="hero img" class="img-fluid position-relative z-5">
                         </div>
                     </div>
                 </div>
