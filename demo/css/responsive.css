@@ -1,0 +1,89 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px){
+    html{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 2.25rem;
+    }
+    h2{
+        font-size: 1.7441em;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+    .domain-search-form button.search-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div[class*='col-']:not(:last-of-type){
+        margin-bottom: 20px !important;
+    }
+    .action-btns a.btn{
+        margin: 7px 0;
+    }
+    .row> div[class*='col-']:last-of-type, #header-top-bar div[class*='col-']:not(:last-of-type), .mega-menu-wrap .row div[class*='col-']:not(:last-of-type), .hs-mega-menu .row.no-gutters div[class*='col-']:not(:last-of-type){
+        margin-bottom: 0 !important;
+    }
+    .mega-menu-wrap{
+        padding: 10px 0;
+    }
+    .navbar-expand-md .sub-menu-nav-group{
+        padding-top: 0;
+    }
+    .single-blog-card{
+        margin-bottom: 0;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    div[class*='col-']:not(:last-of-type){
+        margin-bottom: 20px !important;
+    }
+    .row> div[class*='col-']:last-of-type{
+        margin-bottom: 0;
+    }
+    .action-btns a.btn{
+        margin: 7px 0;
+    }
+    .row> div[class*='col-']:last-of-type, #header-top-bar div[class*='col-']:not(:last-of-type), .mega-menu-wrap .row div[class*='col-']:not(:last-of-type), .hs-mega-menu .row.no-gutters div[class*='col-']:not(:last-of-type){
+        margin-bottom: 0 !important;
+    }
+    .mega-menu-wrap{
+        padding: 10px 0;
+    }
+    .navbar-expand-md .sub-menu-nav-group{
+        padding-top: 0;
+    }
+    .single-blog-card{
+        margin-bottom: 0;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .single-popular-domain .action-btns a.btn{
+        margin: 7px 0;
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .single-popular-domain .action-btns a.btn{
+        margin: 7px 0;
+    }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
