@@ -106,4 +106,5 @@
             <!--footer bottom end-->
             <?php wp_footer()?>
         </footer>
+
         <!--footer section end-->

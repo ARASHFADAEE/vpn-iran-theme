@@ -7,7 +7,7 @@
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon">
+            <img src="<?php echo get_template_directory_uri()?>/assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon">
             <div class="loading-bar"></div>
         </div>
     </div>
@@ -19,7 +19,7 @@
 <?php get_header()?>
 
         <!--hero section start-->
-        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('assets/img/hero-dot-bg.png')no-repeat center right">
+        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('<?php echo get_template_directory_uri()?>/assets/img/hero-dot-bg.png')no-repeat center right">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
@@ -33,13 +33,13 @@
                             <div class="row justify-content-lg-start mt-60">
                                 <h6 class="text-white-70 mb-2">مشتریان برتر ما</h6>
                                 <div class="col-4 col-sm-3 my-2 ps-lg-0">
-                                    <img src="assets/img/clients/client-1.svg" alt="client" class="img-fluid">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-1.svg" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="assets/img/clients/client-2.svg" alt="client" class="img-fluid">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-2.svg" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="assets/img/clients/client-3.svg" alt="client" class="img-fluid">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/clients/client-3.svg" alt="client" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -49,22 +49,22 @@
                             <!--animated shape start-->
                             <ul class="position-absolute animate-element parallax-element circle-shape-list">
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
                                 </li>
                             </ul>
                             <!--animated shape end-->
@@ -133,7 +133,7 @@
                                 <a href="request-demo.html" class="btn btn-outline-primary btn-sm">رایگان شروع کنید</a>
                             </div>
                             <div class="cta-img position-absolute left-0 bottom-0">
-                                <img src="assets/img/cta-img-1.png" alt="cta img" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/cta-img-1.png" alt="cta img" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                                 <a href="request-demo.html" class="btn btn-outline-primary btn-sm">رایگان شروع کنید</a>
                             </div>
                             <div class="cta-img position-absolute left-0 bottom-0">
-                                <img src="assets/img/cta-img-2.png" alt="cta img" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/cta-img-2.png" alt="cta img" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="assets/img/screen/widget-11.png" class="img-fluid" alt="feature-image">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/screen/widget-11.png" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="col-lg-6 col-12 order-lg-0">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="assets/img/screen/widget-12.png" class="img-fluid" alt="feature-image">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/screen/widget-12.png" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">بهترین قالبی که شما باید آن را داشته باشید!</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -265,7 +265,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-1.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-1.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
                                                 </div>
@@ -279,7 +279,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">اولین ورژن شگفت انگیز بود</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -309,7 +309,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-2.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-2.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
                                                 </div>
@@ -323,7 +323,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">قالب کیوتی عالی است</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -355,7 +355,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-3.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-3.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
                                                 </div>
@@ -369,7 +369,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">بهترین قالب برای ساس</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -399,7 +399,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-4.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-4.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
                                                 </div>
@@ -413,7 +413,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold"> بدون شک خوب است! </h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -443,7 +443,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-5.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-5.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
                                                 </div>
@@ -462,7 +462,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link active" data-bs-toggle="pill" data-bs-target="#testimonial-tab-1" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/1.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/1.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">جو ریچارد</h6>
@@ -473,7 +473,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-2" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/2.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/2.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">راپن اوبری</h6>
@@ -485,7 +485,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-3" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/3.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/3.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">جان داو</h6>
@@ -496,7 +496,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-4" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/4.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/4.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">هنری لوسی</h6>
@@ -507,7 +507,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-5" role="tab" aria-selected="true">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/5.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/5.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">امی ناحی</h6>
@@ -538,7 +538,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-12 order-1 order-lg-0">
                         <div class="img-wrap">
-                            <img src="assets/img/office-img-1.jpg" alt="work process" class="img-fluid rounded-custom">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/office-img-1.jpg" alt="work process" class="img-fluid rounded-custom">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 order-0 order-lg-1">
@@ -665,7 +665,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 right--40 bottom--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/dot-big-square.svg" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -713,7 +713,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 left--40 top--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/dot-big-square.svg" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -754,7 +754,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="assets/img/faq.svg" alt="faq" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/faq.svg" alt="faq" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -769,23 +769,23 @@
                     <div class="col-lg-3">
                         <div class="integration-list-wrap">
                             <a href="integration-single.html" class="integration-1" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/1.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/1.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-2" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/2.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/2.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-3" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/3.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/3.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
 
                             <a href="integration-single.html" class="integration-4" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/4.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/4.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-5" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/5.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/5.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-6" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="assets/img/integations/6.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/6.png" alt="integration" class="img-fluid rounded-circle">
                             </a>
                         </div>
                     </div>
@@ -800,23 +800,23 @@
                         <div class="col-lg-4">
                             <div class="integration-list-wrap">
                                 <a href="integration-single.html" class="integration-7" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/7.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/7.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-8" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/8.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/8.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-9" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/9.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/9.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
 
                                 <a href="integration-single.html" class="integration-10" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/10.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/10.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-11" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/11.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/11.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-12" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="assets/img/integations/12.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/12.png" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                             </div>
                         </div>
@@ -827,7 +827,7 @@
                         <a href="integration-single.html" class="mb-4 mb-lg-0 mb-xl-0 position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
                             <div class="position-relative connected-app-content">
                                 <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="assets/img/integations/4.png" width="40" alt="integration" class="img-fluid">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/4.png" width="40" alt="integration" class="img-fluid">
                                 </div>
                                 <h5>گوگل درایو</h5>
                                 <p class="mb-0 text-body"> شایسته خدمات الکترونیکی منحصر به فرد و مدل های مبتنی بر مشتری را تولید می کند.
@@ -841,7 +841,7 @@
                         <a href="integration-single.html" class="position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
                             <div class="position-relative connected-app-content">
                                 <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="assets/img/integations/9.png" width="40" alt="integration" class="img-fluid">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/9.png" width="40" alt="integration" class="img-fluid">
                                 </div>
                                 <h5>گوگل درایو</h5>
                                 <p class="mb-0 text-body">در سراسر جهان به جای مشتری مبتنی بر مشتری، بازارهای نیک تاکتیکی و غیر تاکتیکی را درگیر می کند
@@ -901,13 +901,7 @@
     <!--main content wrapper end-->
 
     <!--all script file-->
-    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/parallax.min.js"></script>
-    <script src="assets/js/vendors/aos.js"></script>
-    <script src="assets/js/app.js"></script>
+
 
 </body>
 
