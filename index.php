@@ -24,12 +24,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h1 class="fw-bold display-5">دریافت کامل و قابل مشاهده شرکت شما</h1>
-                            <p class="lead"> به طور فعال هماهنگی بردارهای کیفیت کیفیت با کیفیت زنجیره ها.به سرعت خدمات وب سرویس مشتری را به سرعت وارد کنید. </p>
+                            <h1 class="fw-bold display-5">وی پی ان ایران بدون محدودیت</h1>
+                            <p class="lead"> خرید vpn ایران بدون محدودیت و یدون مشکل در اتصال  </p>
                             <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                                <a href="request-demo.html" class="btn btn-primary me-3">درخواست برای پیشنمایش</a>
-                                <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn mt-3 mt-lg-0 mt-md-0"> <i class="fas fa-play"></i> تماشای نسخه ی نمایشی </a>
-                            </div>
+                                <a href="request-demo.html" class="btn btn-primary me-3">درخواست تست</a>                            </div>
                             <div class="row justify-content-lg-start mt-60">
                                 <h6 class="text-white-70 mb-2">مشتریان برتر ما</h6>
                                 <div class="col-4 col-sm-3 my-2 ps-lg-0">
@@ -75,6 +73,45 @@
             </div>
         </section>
         <!--hero section end-->
+
+                <!--faq section start-->
+                <section class="faq-section pt-60 pb-120 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="section-heading text-center">
+                            <h4 class="h5 text-primary"> سوالات متداول</h4>
+                            <h2> سوالات پرتکرار</h2>
+                            <p>به راحتی خدمات تعاونی را از طریق برون سپاری مغناطیسی استفاده کنید.به طور پویا رشد ارزش در حالی که بردارهای دقیق تجارت الکترونیک. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 col-12">
+                        <div class="faq-wrapper">
+                            <div class="faq-item mb-5">
+                                <h5><span class="h3 text-primary ms-2">1.</span> رویه برگشت پول چطور کار میکند؟</h5>
+                                <p> به طور مداوم الکترونیکی زنجیره های عرضه ارزان قیمت را فعال کنید.به طور موثر از لحاظ اقتصادی روش های توانمند سازی برای سناریوهای صوتی سینرژیک را حفظ کنید. </p>
+                            </div>
+                            <div class="faq-item mb-5">
+                                <h5><span class="h3 text-primary ms-2">2.</span> چگونه می توانم چقدر قیمت را محاسبه کنم؟</h5>
+                                <p> سفارشی قبل از کلیک کردن و همکاری مشارکت.به طور موثر حفظ سناریوهای اقتصادی از لحاظ اقتصادی و در حالی که به طور مداوم مبتنی بر مشتری است. </p>
+                            </div>
+                            <div class="faq-item">
+                                <h5><span class="h3 text-primary ms-2">3.</span> آیا می توانید یک مثال به من نشان دهید؟</h5>
+                                <p> به طور پویا تجسم در حالی که روابط رقابتی.به طور مداوم معیار مشارکت های سفارشی، مزایای متقابل را به وجود می آورد و نه سناریوهای صوتی و هماهنگی های قوی.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-center mt-4 mt-lg-0 mt-md-0">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/faq.svg" alt="faq" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--faq section end-->
 
         <!--feature promo section start-->
         <section class="feature-promo ptb-120 bg-light">
@@ -122,36 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row pt-60">
-                    <div class="col-lg-6 mt-4">
-                        <div class="position-relative d-flex flex-column h-100 flex-wrap bg-danger-soft p-5 rounded-custom">
-                            <div class="cta-left-info mb-2">
-                                <h5>استفاده از داده های نرم افزاری خود را</h5>
-                                <p>به تدریج مدل های بازسازی شده و مزایای انقلابی طاقچه برای نیش های یکپارچه. </p>
-                            </div>
-                            <div class="action-btns mt-auto">
-                                <a href="request-demo.html" class="btn btn-outline-primary btn-sm">رایگان شروع کنید</a>
-                            </div>
-                            <div class="cta-img position-absolute left-0 bottom-0">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/cta-img-1.png" alt="cta img" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="position-relative d-flex flex-column h-100 flex-wrap bg-primary-soft p-5 rounded-custom">
-                            <div class="cta-left-info mb-2">
-                                <h5>زمان واقعی را در هر زمان به روز کنید</h5>
-                                <p>به تدریج مدل های بازسازی شده و مزایای انقلابی طاقچه برای نیش های یکپارچه. </p>
-                            </div>
-                            <div class="action-btns mt-auto">
-                                <a href="request-demo.html" class="btn btn-outline-primary btn-sm">رایگان شروع کنید</a>
-                            </div>
-                            <div class="cta-img position-absolute left-0 bottom-0">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/cta-img-2.png" alt="cta img" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </section>
         <!--feature promo section end-->
@@ -213,390 +221,6 @@
             </div>
         </section>
         <!--image feature section end-->
-
-        <!--customer review tab section start-->
-        <section class="customer-review-tab ptb-120 bg-gradient text-white position-relative z-2">
-            <div class="container">
-                <div class="row justify-content-center align-content-center">
-                    <div class="col-md-10 col-lg-6">
-                        <div class="section-heading text-center">
-                            <h4 class="h5 text-warning">توصیفات</h4>
-                            <h2>آنجه درباره ما میگویند</h2>
-                            <p> منحصر به فرد ترویج بردارهای با کیفیت انطباق به جای بازارهای الکترونیکی مستقل معماری های جایگزین در حالی که تکرار می شود. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tab-content" id="testimonial-tabContent">
-                            <div class="tab-pane fade active show" id="testimonial-tab-1" role="tabpanel">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
-                                            <div class="blockquote-title-review mb-4">
-                                                <h3 class="mb-0 h4 fw-semi-bold">بهترین قالبی که شما باید آن را داشته باشید!</h3>
-                                                <ul class="review-rate mb-0 list-unstyled list-inline">
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <blockquote class="blockquote">
-                                                <p>در سراسر جهان، طرح های بلند مدت بالا در برابر ضربه های بالا در مقابل   متمایز
-                                                    تجارت الکترونیک
-                                                    زیرساخت های متقاطع رسانه ای به جای هماهنگی های اخلاقی اخلاقی و نه
-                                                    از جهانیپیوستن به لحاظ فنی به لحاظ فنی، اتصال به ارزش رسانه ای ارزش رسانه ای و فرایندهای حق بیمه را از بین ببرید.</p>
-                                            </blockquote>
-                                            <div class="author-info mt-4">
-                                                <h6 class="mb-0">جو ریچارد</h6>
-                                                <span>طراح بصری</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-6">
-                                        <div class="author-img-wrap pt-5 ps-5">
-                                            <div class="testimonial-video-wrapper position-relative">
-                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-1.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
-                                                <div class="customer-info text-white d-flex align-items-center">
-                                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
-                                                </div>
-                                                <div class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="testimonial-tab-2" role="tabpanel">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
-                                            <div class="blockquote-title-review mb-4">
-                                                <h3 class="mb-0 h4 fw-semi-bold">اولین ورژن شگفت انگیز بود</h3>
-                                                <ul class="review-rate mb-0 list-unstyled list-inline">
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <blockquote class="blockquote">
-                                                <p>از معماری های قوی قوی در حالی که توزیع شده است
-                                                    طور ذاتی استفاده از استراتژی های رشد پشتی دیگر
-                                                    از طریق 24/365 محصولات.به راحتی جوامع انقلابی را برای بهبود فرآیند قانع کننده دنبال کنید. </p>
-                                            </blockquote>
-                                            <div class="author-info mt-4">
-                                                <h6 class="mb-0">راپن اوبری</h6>
-                                                <span>طراح وب</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-6">
-                                        <div class="author-img-wrap pt-5 ps-5">
-                                            <div class="testimonial-video-wrapper position-relative">
-                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-2.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
-                                                <div class="customer-info text-white d-flex align-items-center">
-                                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
-                                                </div>
-                                                <div class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="testimonial-tab-3" role="tabpanel">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
-                                            <div class="blockquote-title-review mb-4">
-                                                <h3 class="mb-0 h4 fw-semi-bold">قالب کیوتی عالی است</h3>
-                                                <ul class="review-rate mb-0 list-unstyled list-inline">
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <blockquote class="blockquote">
-                                                <p>
-                                                    به طور مناسب مذاکره می کند نیش های تعاملی نسبتا مقیاس پذیر
-                                                    مزایای در حالی که سیستم های انعطاف پذیر.به طور عینی رشد برون سپاری با کیفیت
-                                                    بدون روش عمودی توانمندسازی.به طور خلاصه در نوآوری های زمانی پس از تفکر مرکز مشتری مذاکره کنید.
-                                                </p>
-                                            </blockquote>
-                                            <div class="author-info mt-4">
-                                                <h6 class="mb-0">جان داو</h6>
-                                                <span>مهندس نرم افزار</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-6">
-                                        <div class="author-img-wrap pt-5 ps-5">
-                                            <div class="testimonial-video-wrapper position-relative">
-                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-3.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
-                                                <div class="customer-info text-white d-flex align-items-center">
-                                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
-                                                </div>
-                                                <div class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="testimonial-tab-4" role="tabpanel">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
-                                            <div class="blockquote-title-review mb-4">
-                                                <h3 class="mb-0 h4 fw-semi-bold">بهترین قالب برای ساس</h3>
-                                                <ul class="review-rate mb-0 list-unstyled list-inline">
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <blockquote class="blockquote">
-                                                <p>به طور صریح مقرون به صرفه مقرون به صرفه مسافت استراتژیک زمینه های استراتژیک و مشتری
-                                                    متا خدمات مستقیمبه طور عینی ارکستر ابتکارات متعامد
-                                                    پس از پهنای باند شرکت گسترده.به صورت پویا از طریق همکاری های زمانبندی های تعاونی، تولید می شود. </p>
-                                            </blockquote>
-                                            <div class="author-info mt-4">
-                                                <h6 class="mb-0">هنری لوسی</h6>
-                                                <span>طراح اپلیکیشن</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-6">
-                                        <div class="author-img-wrap pt-5 ps-5">
-                                            <div class="testimonial-video-wrapper position-relative">
-                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-4.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
-                                                <div class="customer-info text-white d-flex align-items-center">
-                                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
-                                                </div>
-                                                <div class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="testimonial-tab-5" role="tabpanel">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
-                                            <div class="blockquote-title-review mb-4">
-                                                <h3 class="mb-0 h4 fw-semi-bold"> بدون شک خوب است! </h3>
-                                                <ul class="review-rate mb-0 list-unstyled list-inline">
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                    <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <blockquote class="blockquote">
-                                                <p>به طور مناسب از طریق عملکردی متقاطع به طور مناسب بی عیب و نقص می شود
-                                                    .به طور مشترک سیستم های چند رشته ای را دنبال می کند
-                                                    معماری مستقلبه تدریج معماری های کووالانتی را انتقال می دهند در حالیکه برنامه های کاربردی عمودی حرفه ای را متوقف می کنند.</p>
-                                            </blockquote>
-                                            <div class="author-info mt-4">
-                                                <h6 class="mb-0">امی ناحی</h6>
-                                                <span>خدمات مشتری</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-6">
-                                        <div class="author-img-wrap pt-5 ps-5">
-                                            <div class="testimonial-video-wrapper position-relative">
-                                                <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/t-5.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
-                                                <div class="customer-info text-white d-flex align-items-center">
-                                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> مشاهده ویدئو </span></a>
-                                                </div>
-                                                <div class="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="nav nav-pills testimonial-tab-menu mt-60" id="testimonial" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link active" data-bs-toggle="pill" data-bs-target="#testimonial-tab-1" role="tab" aria-selected="false">
-                                    <div class="testimonial-thumb me-3">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/1.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
-                                    </div>
-                                    <div class="author-info">
-                                        <h6 class="mb-0">جو ریچارد</h6>
-                                        <span>طراح بصری</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-2" role="tab" aria-selected="false">
-                                    <div class="testimonial-thumb me-3">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/2.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
-                                    </div>
-                                    <div class="author-info">
-                                        <h6 class="mb-0">راپن اوبری</h6>
-                                        <span>طراح وب</span>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-3" role="tab" aria-selected="false">
-                                    <div class="testimonial-thumb me-3">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/3.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
-                                    </div>
-                                    <div class="author-info">
-                                        <h6 class="mb-0">جان داو</h6>
-                                        <span>مهندس نرم افزار</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-4" role="tab" aria-selected="false">
-                                    <div class="testimonial-thumb me-3">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/4.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
-                                    </div>
-                                    <div class="author-info">
-                                        <h6 class="mb-0">هنری لوسی</h6>
-                                        <span>طراح اپلیکیشن</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-5" role="tab" aria-selected="true">
-                                    <div class="testimonial-thumb me-3">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial/5.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
-                                    </div>
-                                    <div class="author-info">
-                                        <h6 class="mb-0">امی ناحی</h6>
-                                        <span>خدمات مشتری</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--customer review tab section end-->
-
-        <!--our work process start-->
-        <section class="work-process ptb-120">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="section-heading text-center">
-                            <h4 class="h5 text-primary">پروسه</h4>
-                            <h2> ما فرایند کار ما را دنبال می کنیم </h2>
-                            <p>با مشتاقانه مهارت های رهبری رسانه های متقابل را برای تجربیات جایگزین درگیر می کند.
-                                فعالانه سیستم های عمودی را نسبت به معماری های بصری درایو می کنند.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-5 col-md-12 order-1 order-lg-0">
-                        <div class="img-wrap">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/office-img-1.jpg" alt="work process" class="img-fluid rounded-custom">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 order-0 order-lg-1">
-                        <ul class="work-process-list list-unstyled">
-                            <li class="d-flex align-items-start mb-4">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="far fa-folder-tree fa-2x"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">مرحله 1</span>
-                                    <h3 class="h5 mb-2">برنامه ریزی تحقیق و محتوا</h3>
-                                    <p>به تدریج سیستم های گسترده ای را تقویت می کنند در حالیکه سهام سرمایه گذاری شده است
-                                        پهنای باند وب، پهنای باند پایه نصب شده است.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start mb-4">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="far fa-bezier-curve fa-2x"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">مرحله 2</span>
-                                    <h3 class="h5 mb-2">انتشار و اجرا</h3>
-                                    <p>به طور چشمگیری مدیران پیشرفته را بدون خطا در سطح جهانی آزاد می کند
-                                        هماهنگی استاندارد شده توزیع شده توزیع شده است.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start mb-4">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="far fa-layer-group fa-2x"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">مرحله 3</span>
-                                    <h3 class="h5 mb-2">پروتوتایپ محصول</h3>
-                                    <p>روش های تست شفاف شفاف به صورت تعاملی
-                                        ابتکارات   مهارت های مدیریت را مدیریت می کند.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start mb-4 mb-lg-0">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="far fa-truck fa-2x"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">مرحله 4</span>
-                                    <h3 class="h5 mb-2">تحویل محصول نهایی</h3>
-                                    <p>به طرز چشمگیری معیارهای پیشرونده توزیع شده را بدون خطا در سطح جهانی ساده پخش می کند
-                                        هماهنگی استاندارد شده.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--our work process end-->
 
         <!--pricing section start-->
         <section class="pricing-section pt-60 pb-120 position-relative z-2">
@@ -723,44 +347,7 @@
         </section>
         <!--pricing section end-->
 
-        <!--faq section start-->
-        <section class="faq-section pt-60 pb-120 bg-light">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-6">
-                        <div class="section-heading text-center">
-                            <h4 class="h5 text-primary"> سوالات متداول</h4>
-                            <h2> سوالات پرتکرار</h2>
-                            <p>به راحتی خدمات تعاونی را از طریق برون سپاری مغناطیسی استفاده کنید.به طور پویا رشد ارزش در حالی که بردارهای دقیق تجارت الکترونیک. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-5 col-12">
-                        <div class="faq-wrapper">
-                            <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary ms-2">1.</span> رویه برگشت پول چطور کار میکند؟</h5>
-                                <p> به طور مداوم الکترونیکی زنجیره های عرضه ارزان قیمت را فعال کنید.به طور موثر از لحاظ اقتصادی روش های توانمند سازی برای سناریوهای صوتی سینرژیک را حفظ کنید. </p>
-                            </div>
-                            <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary ms-2">2.</span> چگونه می توانم چقدر قیمت را محاسبه کنم؟</h5>
-                                <p> سفارشی قبل از کلیک کردن و همکاری مشارکت.به طور موثر حفظ سناریوهای اقتصادی از لحاظ اقتصادی و در حالی که به طور مداوم مبتنی بر مشتری است. </p>
-                            </div>
-                            <div class="faq-item">
-                                <h5><span class="h3 text-primary ms-2">3.</span> آیا می توانید یک مثال به من نشان دهید؟</h5>
-                                <p> به طور پویا تجسم در حالی که روابط رقابتی.به طور مداوم معیار مشارکت های سفارشی، مزایای متقابل را به وجود می آورد و نه سناریوهای صوتی و هماهنگی های قوی.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/faq.svg" alt="faq" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--faq section end-->
+
 
         <!--integration section start-->
         <section class="integration-section ptb-120">
@@ -856,7 +443,7 @@
         <!--integration section end-->
 
         <!--cat subscribe start-->
-        <section class="cta-subscribe pb-120">
+        <!-- <section class="cta-subscribe pb-120">
             <div class="container">
                 <div class="bg-gradient ptb-120 position-relative overflow-hidden rounded-custom">
                     <div class="row justify-content-center">
@@ -892,7 +479,7 @@
                     <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning left-5"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--cat subscribe end-->
 
 <?php get_footer() ?>

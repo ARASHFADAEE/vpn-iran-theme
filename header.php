@@ -28,7 +28,7 @@
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="<?php echo get_template_directory_uri()?>/assets/img/favicon.png" type="image/png" sizes="16x16">
 
     <!--title-->
     <title> Software & IT Solutions HTML Template</title>
@@ -52,8 +52,8 @@
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
                     <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
-                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
                     </a>
 
                     <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
@@ -63,73 +63,9 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     خانه
                                 </a>
-                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                    <div class="dropdown-grid rounded-custom width-half">
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">خانه های متفاوت</h6>
-                                            <a href="index.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت ساس 1</div>
-                                                    <p> برای <strong> شرکت نرم افزاری </strong> ساس</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-2.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت ساس 2</div>
-                                                    <p> ساس <strong> مدرن شرکتی </strong></p>
-                                                </div>
-                                            </a>
-                                            <a href="index-3.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپلیکیشن دسکتاپ</div>
-                                                    <p><strong>شرکت</strong> نرم افزاری وب</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-4.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپ لندینگ</div>
-                                                    <p>اپ و <strong>نرم افزار</strong> لندینگ </p>
-                                                </div>
-                                            </a>
-                                            <a href="index-5.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپلیکیشن نرم افزاری</div>
-                                                    <p>راه حل های ای تی  <strong>اپ ساس</strong></p>
-                                                </div>
-                                            </a>
-
-                                            <a href="index-6.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت استارت اپ</div>
-                                                    <p>نوع متفاوتی از <strong>شرکت</strong></p>
-                                                </div>
-                                            </a>
-                                            <a href="index-7.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">آنالیز داده</div>
-                                                    <p>شرکت <strong>نرم افزار و </strong>آنالیز داده </p>
-                                                </div>
-                                            </a>
-                                            <a href="index-8.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپ لندینگ دو</div>
-                                                    <p>شرکت <strong>نرم افزار و </strong>آنالیز داده </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
                             </li>
                             <li><a href="services.html" class="nav-link">خدمات</a></li>
                             <li class="nav-item dropdown">
@@ -207,7 +143,7 @@
                             </li>
                             <li><a href="pricing.html" class="nav-link">قیمت گذاری</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">شرکت</a>
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">شرکت</a>
                                 <div class="dropdown-menu border-0 rounded-custom shadow-lg py-0 bg-white">
                                     <div class="dropdown-grid rounded-custom width-full">
                                         <div class="dropdown-grid-item">
@@ -269,11 +205,11 @@
                                             </a>
                                             <a href="request-demo.html" class="dropdown-link">
                                                 <span class="me-2"><i class="far fa-laptop-code"></i></span>
-                                                <div class="drop-title">درخواست برای پیشنمایش</div>
+                                                <div class="drop-title">درخواست تست</div>
                                             </a>
-                                            <a href="login.html" class="dropdown-link">
+                                            <!-- <a href="login.html" class="dropdown-link">
                                                 <span class="me-2"><i class="far fa-sign-in"></i></span>
-                                                <div class="drop-title">ورود کاربر</div>
+                                                <div class="drop-title">ورود کاربر</div> -->
                                             </a>
                                             <a href="register.html" class="dropdown-link">
                                                 <span class="me-2"><i class="far fa-user-plus"></i></span>
@@ -299,7 +235,7 @@
                     </div>
 
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="login.html" class="btn btn-link text-decoration-none me-2">ورود</a>
+                        <!-- <a href="login.html" class="btn btn-link text-decoration-none me-2">ورود</a> -->
                         <a href="request-demo.html" class="btn btn-primary">درخواست</a>
                     </div>
 
@@ -307,7 +243,7 @@
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
                         <div class="offcanvas-header d-flex align-items-center mt-4">
                             <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                                <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-color.png" alt="logo" class="img-fluid ps-2">
                             </a>
                             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close"><i class="far fa-close"></i></button>
                         </div>
@@ -319,66 +255,6 @@
                                     </a>
                                     <div class="dropdown-menu border-0 rounded-custom shadow-lg py-0 bg-white">
                                         <div class="dropdown-grid rounded-custom width-half">
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">خانه های متفاوت</h6>
-                                            <a href="index.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت ساس 1</div>
-                                                    <p> برای <strong> شرکت نرم افزاری </strong> ساس</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-2.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت ساس 2</div>
-                                                    <p> ساس <strong> مدرن شرکتی </strong></p>
-                                                </div>
-                                            </a>
-                                            <a href="index-3.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپلیکیشن دسکتاپ</div>
-                                                    <p><strong>شرکت</strong> نرم افزاری وب</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-4.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپ لندینگ</div>
-                                                    <p>اپ و <strong>نرم افزار</strong> لندینگ </p>
-                                                </div>
-                                            </a>
-                                            <a href="index-5.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپلیکیشن نرم افزاری</div>
-                                                    <p>راه حل های ای تی  <strong>اپ ساس</strong></p>
-                                                </div>
-                                            </a>
-
-                                            <a href="index-6.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">شرکت استارت اپ</div>
-                                                    <p>نوع متفاوتی از <strong>شرکت</strong></p>
-                                                </div>
-                                            </a>
-                                            <a href="index-7.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">آنالیز داده</div>
-                                                    <p>شرکت <strong>نرم افزار و </strong>آنالیز داده </p>
-                                                </div>
-                                            </a>
-                                            <a href="index-8.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">اپ لندینگ دو</div>
-                                                    <p>شرکت <strong>نرم افزار و </strong>آنالیز داده </p>
-                                                </div>
-                                            </a>
-                                        </div>
                                     </div>
                                     </div>
                                 </li>
@@ -459,7 +335,7 @@
                                 <li><a href="pricing.html" class="nav-link">قیمت گذاری</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">شرکت</a>
-                                    <div class="dropdown-menu border-0 rounded-custom shadow-lg py-0 bg-white">
+                                    <!-- <div class="dropdown-menu border-0 rounded-custom shadow-lg py-0 bg-white">
                                         <div class="dropdown-grid rounded-custom width-full">
                                             <div class="dropdown-grid-item">
                                                 <h6 class="drop-heading">لینک های مفید</h6>
@@ -520,7 +396,7 @@
                                                 </a>
                                                 <a href="request-demo.html" class="dropdown-link">
                                                     <span class="me-2"><i class="far fa-laptop-code"></i></span>
-                                                    <div class="drop-title">درخواست برای پیشنمایش</div>
+                                                    <div class="drop-title">درخواست تست</div>
                                                 </a>
                                                 <a href="login.html" class="dropdown-link">
                                                     <span class="me-2"><i class="far fa-sign-in"></i></span>
@@ -544,11 +420,11 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </li>
                             </ul>
                             <div class="action-btns mt-4 pe-3">
-                                <a href="login.html" class="btn btn-outline-primary me-2">ورود</a>
+                                <!-- <a href="login.html" class="btn btn-outline-primary me-2">ورود</a> -->
                                 <a href="request-demo.html" class="btn btn-primary">درخواست</a>
                             </div>
                         </div>
