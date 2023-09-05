@@ -20,3 +20,10 @@ function add_theme_scripts(){
 
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
+function title_setup(){
+    add_theme_support('title-tag');
+    add_theme_support('automatic-feed-links');
+
+}
+add_action('after_setup_theme' , 'title_setup');

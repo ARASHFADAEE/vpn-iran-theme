@@ -7,13 +7,12 @@
 
     <!--meta-->
     <meta name="description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
-    <meta name="author" content="ThemeTags">
+    <meta name="author" content="">
 
     <!--favicon icon-->
     <link rel="icon" href="<?php echo get_template_directory_uri()?>/assets/img/favicon.png" type="image/png" sizes="16x16">
 
-    <!--title-->
-    <title> Software & IT Solutions HTML Template</title>
+
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
