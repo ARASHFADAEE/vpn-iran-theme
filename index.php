@@ -80,7 +80,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-6">
                         <div class="section-heading text-center">
-                            <h4 class="h5 text-primary"> سوالات متداول</h4>
+                            <h4 class="h5 text-primary" id="faq"> سوالات متداول</h4>
                             <h2> سوالات پرتکرار</h2>
                             <p>به راحتی خدمات تعاونی را از طریق برون سپاری مغناطیسی استفاده کنید.به طور پویا رشد ارزش در حالی که بردارهای دقیق تجارت الکترونیک. </p>
                         </div>
@@ -223,12 +223,12 @@
         <!--image feature section end-->
 
         <!--pricing section start-->
-        <section class="pricing-section pt-60 pb-120 position-relative z-2">
+        <section class="pricing-section pt-60 pb-120 position-relative z-2" >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="section-heading text-center">
-                            <h4 class="h5 text-primary">قیمت گذاری</h4>
+                            <h4 class="h5 text-primary" id="price">قیمت گذاری</h4>
                             <h2>قیمت گذاری به صرفه ما را بررسی کنید</h2>
                             <p>به راحتی خدمات تعاونی را از طریق برون سپاری مغناطیسی استفاده کنید.به طور پویا رشد ارزش در حالی که بردارهای دقیق تجارت الکترونیک. </p>
                         </div>
@@ -346,101 +346,6 @@
             </div>
         </section>
         <!--pricing section end-->
-
-
-
-        <!--integration section start-->
-        <section class="integration-section ptb-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-3">
-                        <div class="integration-list-wrap">
-                            <a href="integration-single.html" class="integration-1" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/1.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-                            <a href="integration-single.html" class="integration-2" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/2.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-                            <a href="integration-single.html" class="integration-3" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/3.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-
-                            <a href="integration-single.html" class="integration-4" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/4.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-                            <a href="integration-single.html" class="integration-5" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/5.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-                            <a href="integration-single.html" class="integration-6" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/6.png" alt="integration" class="img-fluid rounded-circle">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="section-heading text-center my-5 my-lg-0 my-xl-0">
-                            <h4 class="text-primary h5">ادغام</h4>
-                            <h2> ما با شرکت نرم افزاری برتر همکاری می کنیم </h2>
-                            <a href="integrations.html" class="mt-4 btn btn-primary">مشاهده ادغام ها</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="col-lg-4">
-                            <div class="integration-list-wrap">
-                                <a href="integration-single.html" class="integration-7" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/7.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-                                <a href="integration-single.html" class="integration-8" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/8.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-                                <a href="integration-single.html" class="integration-9" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/9.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-
-                                <a href="integration-single.html" class="integration-10" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/10.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-                                <a href="integration-single.html" class="integration-11" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/11.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-                                <a href="integration-single.html" class="integration-12" data-bs-toggle="tooltip" data-bs-placement="top" title="نام برند شما">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/12.png" alt="integration" class="img-fluid rounded-circle">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-100">
-                    <div class="col-lg-5 col-md-12">
-                        <a href="integration-single.html" class="mb-4 mb-lg-0 mb-xl-0 position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
-                            <div class="position-relative connected-app-content">
-                                <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/4.png" width="40" alt="integration" class="img-fluid">
-                                </div>
-                                <h5>گوگل درایو</h5>
-                                <p class="mb-0 text-body"> شایسته خدمات الکترونیکی منحصر به فرد و مدل های مبتنی بر مشتری را تولید می کند.
-                                    در سراسر جهان، طاقچه تاکتیکی ورا درگیر می کند </p>
-                            </div>
-                            <span class="position-absolute integration-badge badge px-3 py-2 bg-primary-soft text-primary">ارتباط</span>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-5 col-md-12">
-                        <a href="integration-single.html" class="position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
-                            <div class="position-relative connected-app-content">
-                                <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/integations/9.png" width="40" alt="integration" class="img-fluid">
-                                </div>
-                                <h5>گوگل درایو</h5>
-                                <p class="mb-0 text-body">در سراسر جهان به جای مشتری مبتنی بر مشتری، بازارهای نیک تاکتیکی و غیر تاکتیکی را درگیر می کند
-                                    صلاحیت خدمات را تولید می کند</p>
-                            </div>
-                            <span class="position-absolute integration-badge badge px-3 py-2 bg-danger-soft text-danger">متصل</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--integration section end-->
 
         <!--cat subscribe start-->
         <!-- <section class="cta-subscribe pb-120">

@@ -87,7 +87,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">&copy; 1400 کیوتی ؛ تمام حقوق محفوظ است . ارائه توسط <a href="https://www.rtl-theme.com/user-profile/afaridteam/" class="text-decoration-none">آفرید تیم</a></p>
+                                <p class="mb-lg-0 mb-md-0">&copy; 1402 وی پی ان ایران ؛ تمام حقوق محفوظ است . ارائه توسط <a href="https://niloweb.net" class="text-decoration-none">نیلووب</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
