@@ -40,3 +40,5 @@ function custom_excerpt_more($more) {
     return ' ...'; // متن بعد از خلاصه نوشته (می‌توانید تغییر دهید)
 }
 add_filter('excerpt_more', 'custom_excerpt_more');
+
+

@@ -388,8 +388,8 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-4 col-md-12">
                             <div class="section-heading">
-                                <h4 class="h5 text-primary">اخبار مرتبط</h4>
-                                <h2>آخرین اخبار و وبلاگ ها در کیوتی</h2>
+                                <h4 class="h5 text-primary">مقالات آموزشی</h4>
+                                <h2>آخرین مقالات آموزشی در سایت</h2>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-12">
@@ -399,28 +399,38 @@
                         </div>
                     </div>
                     <div class="row">
+                        <?php
+                        $args = array(
+                            'post_type' => 'post', 
+                            'posts_per_page' => 3, 
+                        );
+                        $query = new WP_Query($args);
+
+                        ?>
+
+                    <?php if ($query->have_posts()) :
+                     while ($query->have_posts()) : $query-> the_post(); ?>
                         <div class="col-lg-4 col-md-6">
                             <div class="single-article rounded-custom mb-4 mb-lg-0">
-                                <a href="blog-single.html" class="article-img">
-                                    <img src="assets/img/blog/blog-1.jpg" alt="article" class="img-fluid">
+                                <a href="<?php the_permalink()?>" class="article-img">
+                                <?php the_post_thumbnail('large',['class' => 'img-fluid', 'title' => 'Feature image'])?>
                                 </a>
                                 <div class="article-content p-4">
                                     <div class="article-category mb-4 d-block">
-                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft">طراحی</a>
+                                    <?php the_category();?></a>
                                     </div>
-                                    <a href="blog-single.html">
-                                        <h2 class="h5 article-title limit-2-line-text">آیا واقعا مفهوم ارزش محصول را درک می کنید؟</h2>
+                                    <a href="<?php the_permalink()?>">
+                                        <h2 class="h5 article-title limit-2-line-text"><?php the_title(); ?></h2>
                                     </a>
-                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+                                    <p class="limit-2-line-text"><?php the_excerpt(); ?></p>
 
                                     <a href="javascript:;">
                                         <div class="d-flex align-items-center pt-4">
                                             <div class="avatar">
-                                                <img src="assets/img/testimonial/6.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                                <img src="#" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
                                             </div>
                                             <div class="avatar-info">
-                                                <h6 class="mb-0 avatar-name">جان مری</h6>
-                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                                <h6 class="mb-0 avatar-name"><?php the_author(); ?></h6>
                                             </div>
                                         </div>
                                     </a>
@@ -428,63 +438,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-article rounded-custom mb-4 mb-lg-0">
-                                <a href="blog-single.html" class="article-img">
-                                    <img src="assets/img/blog/blog-2.jpg" alt="article" class="img-fluid">
-                                </a>
-                                <div class="article-content p-4">
-                                    <div class="article-category mb-4 d-block">
-                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-primary-soft">مشتری</a>
-                                    </div>
-                                    <a href="blog-single.html">
-                                        <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر را برای کسب و کار خود بسازید</h2>
-                                    </a>
-                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+                        <?php
+                        endwhile;
+                        endif; ?>
 
-                                    <a href="javascript:;">
-                                        <div class="d-flex align-items-center pt-4">
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/1.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
-                                            </div>
-                                            <div class="avatar-info">
-                                                <h6 class="mb-0 avatar-name">ورونیکا برد</h6>
-                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-article rounded-custom mb-4 mb-lg-0 mb-md-0">
-                                <a href="blog-single.html" class="article-img">
-                                    <img src="assets/img/blog/blog-3.jpg" alt="article" class="img-fluid">
-                                </a>
-                                <div class="article-content p-4">
-                                    <div class="article-category mb-4 d-block">
-                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-danger-soft">توسعه</a>
-                                    </div>
-                                    <a href="blog-single.html">
-                                        <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر را بسازید</h2>
-                                    </a>
-                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
-
-                                    <a href="javascript:;">
-                                        <div class="d-flex align-items-center pt-4">
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/3.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
-                                            </div>
-                                            <div class="avatar-info">
-                                                <h6 class="mb-0 avatar-name">مارتین گیلبرت</h6>
-                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
