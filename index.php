@@ -427,7 +427,7 @@
                                     <a href="javascript:;">
                                         <div class="d-flex align-items-center pt-4">
                                             <div class="avatar">
-                                                <img src="#" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                                <img src="http://localhost/vpn/wp-content/uploads/2023/09/team-1.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
                                             </div>
                                             <div class="avatar-info">
                                                 <h6 class="mb-0 avatar-name"><?php the_author(); ?></h6>

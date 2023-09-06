@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="author-wrap text-center bg-light p-5 sticky-sidebar rounded-custom mt-5 mt-lg-0">
-                            <img src="assets/img/team/team-2.jpg" alt="author" width="120" class="img-fluid shadow-sm rounded-circle">
+                            <img src="http://localhost/vpn/wp-content/uploads/2023/09/team-1.jpg" alt="author" width="120" class="img-fluid shadow-sm rounded-circle">
                             <div class="author-info my-4">
                                 <h5 class="mb-0"><?php the_author()?></h5>
                                 <span class="small">نویسنده</span>
