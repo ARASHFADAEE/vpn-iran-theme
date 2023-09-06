@@ -382,45 +382,116 @@
         </section>
         <!--pricing section end-->
 
-        <!--cat subscribe start-->
-        <!-- <section class="cta-subscribe pb-120">
-            <div class="container">
-                <div class="bg-gradient ptb-120 position-relative overflow-hidden rounded-custom">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-7 col-md-8">
-                            <div class="subscribe-info-wrap text-center position-relative z-2">
-                                <div class="section-heading">
-                                    <h4 class="h5 text-warning">بیایید امتحان کنیم دریافت پشتیبانی رایگان</h4>
-                                    <h2> شروع آزمایشی رایگان 14 روزه </h2>
-                                    <p>ما می توانیم به شما کمک کنیم تا وب سایت رویای خود را برای درآمد ایجاد کنید.</p>
-                                </div>
-                                <div class="form-block-banner mw-60 m-auto mt-5">
-                                    <a href="contact-us.html" class="btn btn-primary">تماس با ما</a>
-                                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0"> <i class="fas fa-play"></i> تماشای نسخه ی نمایشی </a>
-                                </div>
-                                <ul class="nav justify-content-center subscribe-feature-list mt-4">
-                                    <li class="nav-item">
-                                        <span><i class="far fa-check-circle text-primary me-2"></i>امتحان 14 روزه رایگان</span>
-                                    </li>
-                                    <li class="nav-item">
-                                <span><i class="far fa-check-circle text-primary me-2"></i>بدون نیاز به کارت اعتباری</span>
-                                    </li>
-                                    <li class="nav-item">
-                                        <span><i class="far fa-check-circle text-primary me-2"></i> پشتیبانی 24/7</span>
-                                    </li>
-                                    <li class="nav-item">
-                                        <span><i class="far fa-check-circle text-primary me-2"></i>حذف در هر زمان</span>
-                                    </li>
-                                </ul>
+                    <!--related blog start-->
+                    <section class="related-blog-list ptb-120 bg-light">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="section-heading">
+                                <h4 class="h5 text-primary">اخبار مرتبط</h4>
+                                <h2>آخرین اخبار و وبلاگ ها در کیوتی</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
+                                <a href="blog.html" class="btn btn-primary">مشاهده همه مقالات</a>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
-                    <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning left-5"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-article rounded-custom mb-4 mb-lg-0">
+                                <a href="blog-single.html" class="article-img">
+                                    <img src="assets/img/blog/blog-1.jpg" alt="article" class="img-fluid">
+                                </a>
+                                <div class="article-content p-4">
+                                    <div class="article-category mb-4 d-block">
+                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft">طراحی</a>
+                                    </div>
+                                    <a href="blog-single.html">
+                                        <h2 class="h5 article-title limit-2-line-text">آیا واقعا مفهوم ارزش محصول را درک می کنید؟</h2>
+                                    </a>
+                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                                    <a href="javascript:;">
+                                        <div class="d-flex align-items-center pt-4">
+                                            <div class="avatar">
+                                                <img src="assets/img/testimonial/6.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                            </div>
+                                            <div class="avatar-info">
+                                                <h6 class="mb-0 avatar-name">جان مری</h6>
+                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-article rounded-custom mb-4 mb-lg-0">
+                                <a href="blog-single.html" class="article-img">
+                                    <img src="assets/img/blog/blog-2.jpg" alt="article" class="img-fluid">
+                                </a>
+                                <div class="article-content p-4">
+                                    <div class="article-category mb-4 d-block">
+                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-primary-soft">مشتری</a>
+                                    </div>
+                                    <a href="blog-single.html">
+                                        <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر را برای کسب و کار خود بسازید</h2>
+                                    </a>
+                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                                    <a href="javascript:;">
+                                        <div class="d-flex align-items-center pt-4">
+                                            <div class="avatar">
+                                                <img src="assets/img/testimonial/1.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                            </div>
+                                            <div class="avatar-info">
+                                                <h6 class="mb-0 avatar-name">ورونیکا برد</h6>
+                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-article rounded-custom mb-4 mb-lg-0 mb-md-0">
+                                <a href="blog-single.html" class="article-img">
+                                    <img src="assets/img/blog/blog-3.jpg" alt="article" class="img-fluid">
+                                </a>
+                                <div class="article-content p-4">
+                                    <div class="article-category mb-4 d-block">
+                                        <a href="javascript:;" class="d-inline-block text-dark badge bg-danger-soft">توسعه</a>
+                                    </div>
+                                    <a href="blog-single.html">
+                                        <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر را بسازید</h2>
+                                    </a>
+                                    <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                                    <a href="javascript:;">
+                                        <div class="d-flex align-items-center pt-4">
+                                            <div class="avatar">
+                                                <img src="assets/img/testimonial/3.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                            </div>
+                                            <div class="avatar-info">
+                                                <h6 class="mb-0 avatar-name">مارتین گیلبرت</h6>
+                                                <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section> -->
-        <!--cat subscribe end-->
+            </section>
+            <!--related blog end-->
+
+
 
 <?php get_footer() ?>
 

@@ -30,3 +30,13 @@ function title_setup(){
 
 }
 add_action('after_setup_theme' , 'title_setup');
+
+function custom_excerpt_length($length) {
+    return 20; // تعداد کلمات مورد نظر برای نمایش خلاصه
+}
+add_filter('excerpt_length', 'custom_excerpt_length');
+
+function custom_excerpt_more($more) {
+    return ' ...'; // متن بعد از خلاصه نوشته (می‌توانید تغییر دهید)
+}
+add_filter('excerpt_more', 'custom_excerpt_more');
