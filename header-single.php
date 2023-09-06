@@ -56,7 +56,7 @@
                             </li>
                             <li><a href="services.html" class="nav-link">مقالات آموزشی</a></li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="#price" >تعرفه ها</a>
+                                <a class="nav-link " href="http://localhost/vpn/#price" >تعرفه ها</a>
 
                             </li>
                             <li><a href="#faq" class="nav-link">سوالات متداول</a></li>

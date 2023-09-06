@@ -44,7 +44,7 @@
                     <div class="col-lg-8 pe-5">
                         <div class="blog-details-wrap">
                             <figure class="imgpost">
-                                <?php the_post_thumbnail()?>
+                                <?php the_post_thumbnail('large',['class' => 'img-responsive', 'title' => 'Feature image'])?>
                             </figure>
 
                             <?php the_content(); ?>
