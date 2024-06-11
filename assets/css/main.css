@@ -36,7 +36,13 @@
   src: url("../fonts/2-IranYekan/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("../fonts/2-IranYekan/iranyekanwebbold.woff2") format("woff2"), url("../fonts/2-IranYekan/iranyekanwebbold.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebbold.ttf") format("truetype");
 }
 
-
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/7-vazir/Vazir-Medium.eot");
+  src: url("../fonts/7-vazir/Vazir-Medium.eot") format("embedded-opentype"), url("../fonts/7-vazir/Vazir-Medium.woff2") format("woff2"), url("..//fonts/7-vazir/Vazir-Medium.woff") format("woff");
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

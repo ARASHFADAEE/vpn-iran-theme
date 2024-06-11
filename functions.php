@@ -41,5 +41,13 @@ function custom_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'custom_excerpt_more');
 
+// show category name 
 
+function get_category_name() {
+    $categories = get_the_category(); 
+    if ( ! empty( $categories ) ) { 
+        return $categories[0]->name; 
+    }
+    return false; 
+}
 

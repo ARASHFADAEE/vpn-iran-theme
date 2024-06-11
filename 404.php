@@ -1,10 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+﻿<?php get_template_part( '/partials/head', 'head' )?>
 
-<body>
-    
-</body>
-</html>
 <?php get_header()?>
 <body>
 

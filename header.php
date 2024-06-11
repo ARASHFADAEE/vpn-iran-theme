@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html <?php language_attributes( )?> dir="rtl">     
-<head>
-    <!--required meta tags-->
-    <meta <?php bloginfo( 'charset' ) ?>>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <!--meta-->
-    <meta name="description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
-    <meta name="author" content="">
-
-    <!--favicon icon-->
-    <link rel="icon" href="<?php echo get_template_directory_uri()?>/assets/img/favicon.png" type="image/png" sizes="16x16">
-
-
-
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
-
-    <!--build:css-->
-    <link rel="stylesheet" href="assets/css/main-rtl.css">
-    <!-- endbuild -->
-
-    <!--custom css start-->
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <!--custom css end-->
-
-    <?php wp_head() ?>
-
-</head> 
        <!--header start-->
         <header class="main-header position-absolute w-100">
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header">
@@ -44,11 +15,11 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li class="nav-item dropdown">
-                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " href="<?php echo get_home_url()?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     خانه
                                 </a>
                             </li>
-                            <li><a href="services.html" class="nav-link">مقالات آموزشی</a></li>
+                            <li><a href="<?php echo get_home_url()?>/blog" class="nav-link">مقالات آموزشی</a></li>
                             <li class="nav-item ">
                                 <a class="nav-link " href="#price" >تعرفه ها</a>
 

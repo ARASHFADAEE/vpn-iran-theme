@@ -50,18 +50,18 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li class="nav-item dropdown">
-                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " href="<?php echo get_home_url()?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     خانه
                                 </a>
                             </li>
-                            <li><a href="services.html" class="nav-link">مقالات آموزشی</a></li>
+                            <li><a href="<?php echo get_home_url()?>/blog" class="nav-link">مقالات آموزشی</a></li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="http://localhost/vpn/#price" >تعرفه ها</a>
+                                <a class="nav-link " href="<?php echo get_home_url()?>/#price" >تعرفه ها</a>
 
                             </li>
                             <li><a href="#faq" class="nav-link">سوالات متداول</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">درباره ما</a>
+                                <a class="nav-link " href="<?php echo get_home_url()?>/#faq" role="button" data-bs-toggle="dropdown" aria-expanded="false">درباره ما</a>
 
                             </li>
                         </ul>

@@ -2,14 +2,7 @@
 
 <body>
 
-    <!--preloader start-->
-    <div id="preloader">
-        <div class="preloader-wrap">
-            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon">
-            <div class="loading-bar"></div>
-        </div>
-    </div>
-    <!--preloader end-->
+
 
     <!--main content wrapper start-->
     <div class="main-wrapper">
@@ -43,30 +36,22 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-8 pe-5">
                         <div class="blog-details-wrap">
-                            <figure class="imgpost">
-                                <?php the_post_thumbnail('large',['class' => 'img-responsive', 'title' => 'Feature image'])?>
-                            </figure>
+
 
                             <?php the_content(); ?>
       
 
-                            <img src="<?php the_author_aim()?>" class="img-fluid mt-5 rounded-custom" alt="apply">
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="author-wrap text-center bg-light p-5 sticky-sidebar rounded-custom mt-5 mt-lg-0">
-                            <img src="http://localhost/vpn/wp-content/uploads/2023/09/team-1.jpg" alt="author" width="120" class="img-fluid shadow-sm rounded-circle">
+                            <img src="<?php echo get_home_url()?>/wp-content/uploads/2021/01/logo-footer.svg" alt="author" width="120" class="img-fluid shadow-sm rounded-circle">
                             <div class="author-info my-4">
-                                <h5 class="mb-0"><?php the_author()?></h5>
+                                <h5 class="mb-0">تولید کننده محتوا</h5>
                                 <span class="small">نویسنده</span>
                             </div>
                             <p><?php get_the_author_meta()?></p>
-                            <ul class="list-unstyled author-social-list list-inline mt-3 mb-0">
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            </ul>
+   
                         </div>
                     </div>
                 </div>

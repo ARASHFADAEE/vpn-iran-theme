@@ -11,3 +11,36 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/2-IranYekan/iranyekanwebregular.eot");
+    src: url("../fonts/2-IranYekan/iranyekanwebregular.eot?#iefix") format("embedded-opentype"), url("../fonts/2-IranYekan/iranyekanwebregular.woff") format("woff2"), url("../fonts/2-IranYekan/iranyekanwebregular.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebregular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: iranyekan-l;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/2-IranYekan/iranyekanweblight.eot");
+    src: url("../fonts/2-IranYekan/iranyekanweblight.eot?#iefix") format("embedded-opentype"), url("../fonts//2-IranYekan/iranyekanweblight.woff2") format("woff2"), url("../fonts//2-IranYekan/iranyekanweblight.woff") format("woff"), url("../fonts//2-IranYekan/iranyekanweblight.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: iranyekan-b;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/2-IranYekan/iranyekanwebbold.eot");
+    src: url("../fonts/2-IranYekan/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("../fonts/2-IranYekan/iranyekanwebbold.woff2") format("woff2"), url("../fonts/2-IranYekan/iranyekanwebbold.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebbold.ttf") format("truetype");
+  }
+  
+
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/7-vazir/Vazir-Medium.eot");
+    src: url("../fonts/7-vazir/Vazir-Medium.eot") format("embedded-opentype"), url("../fonts/7-vazir/Vazir-Medium.woff2") format("woff2"), url("..//fonts/7-vazir/Vazir-Medium.woff") format("woff");
+  }
