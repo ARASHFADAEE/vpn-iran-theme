@@ -3,7 +3,7 @@
 <body>
     <!--main content wrapper start-->
     <div class="main-wrapper">
-        <?php get_header() ?>
+        <?php get_header('single') ?>
 
         <!--page header section start-->
         <section class="page-header position-relative overflow-hidden ptb-120 bg-dark" style="background: url('assets/img/page-header-bg.svg')no-repeat center bottom">
@@ -49,14 +49,14 @@
                                     </a>
                                     <div class="article-content p-4">
                                         <div class="article-category mb-4 d-block">
-                                            <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft"><?php echo get_category_name() ?></a>
+                                            <a href="<?php the_permalink()?>" class="d-inline-block text-dark badge bg-warning-soft"><?php echo get_category_name() ?></a>
                                         </div>
-                                        <a href="blog-single.html">
+                                        <a href="<?php the_permalink()?>">
                                             <h2 class="h5 article-title limit-2-line-text"><?php the_title() ?></h2>
                                         </a>
                                         <p class="limit-2-line-text"><?php the_excerpt() ?></p>
 
-                                        <a href="javascript:;">
+                                        <a href="<?php the_permalink()?>">
                                             <div class="d-flex align-items-center pt-4">
                                                 <div class="avatar">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2021/01/logo-footer.svg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">

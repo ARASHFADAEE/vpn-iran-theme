@@ -1,5 +1,4 @@
-
-<?php get_template_part( '/partials/head', 'head' )?>
+<?php get_template_part('/partials/head', 'head') ?>
 
 
 <body>
@@ -7,28 +6,29 @@
     <!--main content wrapper start-->
     <div class="main-wrapper">
 
-<?php get_header()?>
+        <?php get_header() ?>
 
         <!--hero section start-->
-        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('<?php echo get_template_directory_uri()?>/assets/img/hero-dot-bg.png')no-repeat center right">
+        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('<?php echo get_template_directory_uri() ?>/assets/img/hero-dot-bg.png')no-repeat center right">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
                             <h1 class="fw-bold display-5">وی پی ان ایران بدون محدودیت</h1>
-                            <p class="lead"> خرید vpn ایران بدون محدودیت و بدون مشکل در اتصال  </p>
+                            <p class="lead"> خرید vpn ایران بدون محدودیت و بدون مشکل در اتصال </p>
                             <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                                <a href="#price" class="btn btn-primary me-3">خرید سرویس</a>                            </div>
+                                <a href="#price" class="btn btn-primary me-3">خرید سرویس</a>
+                            </div>
                             <div class="row justify-content-lg-start mt-60">
                                 <h6 class="text-white-70 mb-2 pd">سرویس های متصل</h6>
                                 <div class="col-4 col-sm-3 my-2 ps-lg-0">
-                                    <img id="filimo" src="<?php echo get_template_directory_uri()?>/assets/img/clients/fa-filimo-dark-logo.png" alt="client" class="img-fluid">
+                                    <img id="filimo" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/fa-filimo-dark-logo.png" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img id="melofilm" src="<?php echo get_template_directory_uri()?>/assets/img/clients/logo-type.png" alt="client" class="img-fluid">
+                                    <img id="melofilm" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/logo-type.png" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img id="filmnet" src="<?php echo get_template_directory_uri()?>/assets/img/clients/filmnet-logo.svg" alt="client" class="img-fluid">
+                                    <img id="filmnet" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/filmnet-logo.svg" alt="client" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -38,22 +38,22 @@
                             <!--animated shape start-->
                             <ul class="position-absolute animate-element parallax-element circle-shape-list">
                                 <li class="layer" data-depth="0.03">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.02">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
                                 </li>
                             </ul>
                             <!--animated shape end-->
@@ -65,8 +65,8 @@
         </section>
         <!--hero section end-->
 
-                <!--faq section start-->
-                <section class="faq-section pt-60 pb-120 bg-light">
+        <!--faq section start-->
+        <section class="faq-section pt-60 pb-120 bg-light">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-6">
@@ -78,73 +78,73 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                        <div class="col-lg-7 col-12">
-                            <div class="accordion faq-accordion" id="accordionExample">
-                                <div class="accordion-item border border-2 active">
-                                    <h5 class="accordion-header" id="faq-1">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
-                                            رویه برگشت پول چطور کار میکند؟
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="faq-1" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            به طور چشمگیری محصولات متقاطع را با آیتم های فعال وب فعال می کند.به سرعت به حداکثر رساندن روش های قابل انعطاف توانمندسازی بدون ابتکارات خارج از جعبه.پیوند کامل عملکردی به جای اطلاعات بدون درز.به طور کلی طرح های به موقع را در برابر الزامات با کیفیت بالا ارائه می دهد.به طور مداوم محتوای منبع باز را از طریق خدمات مشتری حرفه ای مستقر کنید.
-                                        </div>
+                    <div class="col-lg-7 col-12">
+                        <div class="accordion faq-accordion" id="accordionExample">
+                            <div class="accordion-item border border-2 active">
+                                <h5 class="accordion-header" id="faq-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
+                                        رویه برگشت پول چطور کار میکند؟
+                                    </button>
+                                </h5>
+                                <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="faq-1" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        به طور چشمگیری محصولات متقاطع را با آیتم های فعال وب فعال می کند.به سرعت به حداکثر رساندن روش های قابل انعطاف توانمندسازی بدون ابتکارات خارج از جعبه.پیوند کامل عملکردی به جای اطلاعات بدون درز.به طور کلی طرح های به موقع را در برابر الزامات با کیفیت بالا ارائه می دهد.به طور مداوم محتوای منبع باز را از طریق خدمات مشتری حرفه ای مستقر کنید.
                                     </div>
                                 </div>
-                                <div class="accordion-item border border-2">
-                                    <h5 class="accordion-header" id="faq-2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
-                                            آیا می توانید یک مثال به من نشان دهید؟
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            به طور مداوم نوآوری منابع فنی داخلی و یا "ارگانیک" با محتوای موقعیت موقعیت بازار است.به طور کامل به طور کامل سرمایه فکری مطلوب را در برابر سرمایه انسانی جهانی به ارمغان می آورد.به طور ذاتی اداری مواد قوی و منابع خونریزی را مدیریت می کند.به طور پویا نسل بعدی برنامه های کاربردی مبتنی بر بازار
-                                        </div>
+                            </div>
+                            <div class="accordion-item border border-2">
+                                <h5 class="accordion-header" id="faq-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
+                                        آیا می توانید یک مثال به من نشان دهید؟
+                                    </button>
+                                </h5>
+                                <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        به طور مداوم نوآوری منابع فنی داخلی و یا "ارگانیک" با محتوای موقعیت موقعیت بازار است.به طور کامل به طور کامل سرمایه فکری مطلوب را در برابر سرمایه انسانی جهانی به ارمغان می آورد.به طور ذاتی اداری مواد قوی و منابع خونریزی را مدیریت می کند.به طور پویا نسل بعدی برنامه های کاربردی مبتنی بر بازار
                                     </div>
                                 </div>
-                                <div class="accordion-item border border-2">
-                                    <h5 class="accordion-header" id="faq-3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
-                                            چگونه می توانم پردازش کنم؟
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            پس از جوامع مجتمع، روش های تست تعاونی را ارائه می دهد.به طور چشمگیری ساده مدل های سطح منابع با برون سپاری منحصر به فرد را ساده می کند.حرفه ای به طور حرفه ای همکاری های را ساده تر در حالی که بهترین روش های بازار است.به طور مشترک از تکنولوژی مغناطیسی برای تکنولوژی قوی استفاده می کند.
-                                        </div>
+                            </div>
+                            <div class="accordion-item border border-2">
+                                <h5 class="accordion-header" id="faq-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
+                                        چگونه می توانم پردازش کنم؟
+                                    </button>
+                                </h5>
+                                <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        پس از جوامع مجتمع، روش های تست تعاونی را ارائه می دهد.به طور چشمگیری ساده مدل های سطح منابع با برون سپاری منحصر به فرد را ساده می کند.حرفه ای به طور حرفه ای همکاری های را ساده تر در حالی که بهترین روش های بازار است.به طور مشترک از تکنولوژی مغناطیسی برای تکنولوژی قوی استفاده می کند.
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="accordion-item border border-2">
-                                    <h5 class="accordion-header" id="faq-4">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false">
-                                            چه اتفاقی می افتد اگر من بیش از حد لیمیت بروم؟
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            به طور قابل توجهی تسهیل پیشرفت های فرآیند بهره برداری برای زیرساخت های سرمایه گذاری سهام.به طور مداوم Mesh سرمایه انسانی بالا با برون سپاری سازگار با عقب.به طرز وحشیانه ای به واسطه معیارهای موازی هماهنگ می شود.به طور تعاملی از همگرایی هدایت مشتری و منابع موازی استفاده می شود.با مشتاقانه معمار خدمات الکترونیکی مشتری مرکزی در حالی که تجارت الکترونیک گرانول است.
-                                        </div>
+                            <div class="accordion-item border border-2">
+                                <h5 class="accordion-header" id="faq-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false">
+                                        چه اتفاقی می افتد اگر من بیش از حد لیمیت بروم؟
+                                    </button>
+                                </h5>
+                                <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        به طور قابل توجهی تسهیل پیشرفت های فرآیند بهره برداری برای زیرساخت های سرمایه گذاری سهام.به طور مداوم Mesh سرمایه انسانی بالا با برون سپاری سازگار با عقب.به طرز وحشیانه ای به واسطه معیارهای موازی هماهنگ می شود.به طور تعاملی از همگرایی هدایت مشتری و منابع موازی استفاده می شود.با مشتاقانه معمار خدمات الکترونیکی مشتری مرکزی در حالی که تجارت الکترونیک گرانول است.
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="accordion-item border border-2">
-                                    <h5 class="accordion-header" id="faq-5">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false">
-                                            چگونه می توانم محاسبه کنم که چقدر پردازش نیاز دارم؟
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            به طور مشخص توانایی های برتر را از طریق مدل های موقعیت یابی بازار فعال می کند.به طور مشخص، پیشگامان منحصر به فرد را بدون ایده های گسترده ای گسترش می دهد.به طور عینی کاتالیزورهای چند منظوره را برای تغییر محتوای پایه نصب شده مستقر می کند.یکپارچه همگرایی رو به جلو را از طریق طرح های کیفیت ایجاد کنید.به طور عینی مهارت های رهبری رسانه های متقابل را از طریق منابع مشتری هدایت می کند.
-                                        </div>
+                            <div class="accordion-item border border-2">
+                                <h5 class="accordion-header" id="faq-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false">
+                                        چگونه می توانم محاسبه کنم که چقدر پردازش نیاز دارم؟
+                                    </button>
+                                </h5>
+                                <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        به طور مشخص توانایی های برتر را از طریق مدل های موقعیت یابی بازار فعال می کند.به طور مشخص، پیشگامان منحصر به فرد را بدون ایده های گسترده ای گسترش می دهد.به طور عینی کاتالیزورهای چند منظوره را برای تغییر محتوای پایه نصب شده مستقر می کند.یکپارچه همگرایی رو به جلو را از طریق طرح های کیفیت ایجاد کنید.به طور عینی مهارت های رهبری رسانه های متقابل را از طریق منابع مشتری هدایت می کند.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
         <!--faq section end-->
@@ -224,7 +224,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/screen/widget-11.png" class="img-fluid" alt="feature-image">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/screen/widget-11.png" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                     </div>
                     <div class="col-lg-6 col-12 order-lg-0">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/screen/widget-12.png" class="img-fluid" alt="feature-image">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/screen/widget-12.png" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
         <!--image feature section end-->
 
         <!--pricing section start-->
-        <section class="pricing-section pt-60 pb-120 position-relative z-2" >
+        <section class="pricing-section pt-60 pb-120 position-relative z-2">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
@@ -287,7 +287,7 @@
                                 <i class="fal fa-calendar-check text-success"></i>
                             </div>
                             <div class="media-body fw-medium h6 mb-0">
-                                30 روز آزمایشی رایگان 
+                                30 روز آزمایشی رایگان
                             </div>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 right--40 bottom--40">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/dot-big-square.svg" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -373,7 +373,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 left--40 top--40">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/shape/dot-big-square.svg" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -383,75 +383,75 @@
         </section>
         <!--pricing section end-->
 
-                    <!--related blog start-->
-                    <section class="related-blog-list ptb-120 bg-light">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="section-heading">
-                                <h4 class="h5 text-primary">مقالات آموزشی</h4>
-                                <h2>آخرین مقالات آموزشی در سایت</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-12">
-                            <div class="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
-                                <a href="blog.html" class="btn btn-primary">مشاهده همه مقالات</a>
-                            </div>
+        <!--related blog start-->
+        <section class="related-blog-list ptb-120 bg-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="section-heading">
+                            <h4 class="h5 text-primary">مقالات آموزشی</h4>
+                            <h2>آخرین مقالات آموزشی در سایت</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <?php
-                        $args = array(
-                            'post_type' => 'post', 
-                            'posts_per_page' => 3, 
-                        );
-                        $query = new WP_Query($args);
-
-                        ?>
-
-                    <?php if ($query->have_posts()) :
-                     while ($query->have_posts()) : $query-> the_post(); ?>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-article rounded-custom mb-4 mb-lg-0">
-                                <a href="<?php the_permalink()?>" class="article-img">
-                                <?php the_post_thumbnail('large',['class' => 'img-fluid', 'title' => 'Feature image'])?>
-                                </a>
-                                <div class="article-content p-4">
-                                    <div class="article-category mb-4 d-block">
-                                    <?php echo get_category_name();?></a>
-                                    </div>
-                                    <a href="<?php the_permalink()?>">
-                                        <h2 class="h5 article-title limit-2-line-text"><?php the_title(); ?></h2>
-                                    </a>
-                                    <p class="limit-2-line-text"><?php the_excerpt(); ?></p>
-
-                                    <a href="javascript:;">
-                                        <div class="d-flex align-items-center pt-4">
-                                            <div class="avatar">
-                                                <img src="<?php echo get_home_url()?>/wp-content/uploads/2021/01/logo-footer.svg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
-                                            </div>
-                                            <div class="avatar-info">
-                                                <h6 class="mb-0 avatar-name">تولید کننده محتوا</h6>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <?php
-                        endwhile;
-                        endif; ?>
-
+                    <div class="col-lg-7 col-md-12">
+                        <div class="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
+                            <a href="blog.html" class="btn btn-primary">مشاهده همه مقالات</a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!--related blog end-->
+                <div class="row">
+                    <?php
+                    $args = array(
+                        'post_type' => 'post',
+                        'posts_per_page' => 3,
+                    );
+                    $query = new WP_Query($args);
+
+                    ?>
+
+                    <?php if ($query->have_posts()) :
+                        while ($query->have_posts()) : $query->the_post(); ?>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-article rounded-custom mb-4 mb-lg-0">
+                                    <a href="<?php the_permalink() ?>" class="article-img">
+                                        <?php the_post_thumbnail('large', ['class' => 'img-fluid', 'title' => 'Feature image']) ?>
+                                    </a>
+                                    <div class="article-content p-4">
+                                        <div class="article-category mb-4 d-block">
+                                            <?php echo get_category_name(); ?></a>
+                                        </div>
+                                        <a href="<?php the_permalink() ?>">
+                                            <h2 class="h5 article-title limit-2-line-text"><?php the_title(); ?></h2>
+                                        </a>
+                                        <p class="limit-2-line-text"><?php the_excerpt(); ?></p>
+
+                                        <a href="javascript:;">
+                                            <div class="d-flex align-items-center pt-4">
+                                                <div class="avatar">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2021/01/logo-footer.svg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                                </div>
+                                                <div class="avatar-info">
+                                                    <h6 class="mb-0 avatar-name">تولید کننده محتوا</h6>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                    <?php
+                        endwhile;
+                    endif; ?>
+
+                </div>
+            </div>
+    </div>
+    </section>
+    <!--related blog end-->
 
 
 
-<?php get_footer() ?>
+    <?php get_footer() ?>
 
     </div>
     <!--main content wrapper end-->
