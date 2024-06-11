@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
-                            <a href="blog.html" class="btn btn-primary">مشاهده همه مقالات</a>
+                            <a href="<?php echo get_home_url()?>/blog" class="btn btn-primary">مشاهده همه مقالات</a>
                         </div>
                     </div>
                 </div>
