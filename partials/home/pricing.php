@@ -45,8 +45,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">شروع</h3>
-                                <h4 class="display-6 fw-semi-bold">25تومان<span>/ماهانه</span></h4>
+                                <h3 class="package-name text-primary d-block"><?php echo esc_html(get_theme_mod('plan1_name', 'پلن پایه')); ?></h3>
+                                <h4 class="display-6 fw-semi-bold"><?php echo esc_html(number_format(get_theme_mod('plan1_price', '50000'))); ?>تومان<span>/ماهانه</span></h4>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
@@ -60,7 +60,7 @@
                                     <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> 24/7 پشتیبانی مادام العمر</li>
                                 </ul>
                             </div>
-                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">اکنون بخرید</a>
+                            <a href="#contact" class="btn btn-outline-primary mt-2">اکنون بخرید</a>
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 right--40 bottom--40">
@@ -73,7 +73,7 @@
                         <div class="position-relative single-pricing-wrap rounded-custom bg-gradient text-white p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
                                 <h3 class="package-name text-warning d-block">پیشرفته</h3>
-                                <h4 class="display-6 fw-semi-bold">45تومان<span>/ماهانه</span></h4>
+                                <h4 class="display-6 fw-semi-bold"><?php echo esc_html(get_theme_mod('vpn_iran_price_pro', '50')); ?>تومان<span>/ماهانه</span></h4>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
@@ -87,14 +87,14 @@
                                     <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> 24/7 پشتیبانی مادام العمر</li>
                                 </ul>
                             </div>
-                            <a href="request-demo.html" class="btn btn-primary mt-2">اکنون بخرید</a>
+                            <a href="#contact" class="btn btn-primary mt-2">اکنون بخرید</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block"> اختصاصی </h3>
-                                <h4 class="display-6 fw-semi-bold">75تومان<span>/ماهانه</span></h4>
+                                <h3 class="package-name text-primary d-block">اختصاصی</h3>
+                                <h4 class="display-6 fw-semi-bold"><?php echo esc_html(get_theme_mod('vpn_iran_price_premium', '75')); ?>تومان<span>/ماهانه</span></h4>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">

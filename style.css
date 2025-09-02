@@ -3,11 +3,16 @@ Theme Name: وی پی ان ایران
 Theme URI: https://technofars.com
 Author: Hossein fadaei
 Author URI: https://technofars.com
-Description: یک قالب اختصاصی برای وی پی ان ایران توسط حسین فدائی
-Version: 1.0
-Requires PHP: 7.0
+Description: قالب حرفه‌ای و مدرن برای سایت‌های ارائه‌دهنده سرویس VPN با پشتیبانی کامل از زبان فارسی، Theme Customizer، منوهای داینامیک و امنیت بالا
+Version: 2.0.1
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vpn-iran
+Tags: rtl-language-support, custom-menu, custom-logo, featured-images, threaded-comments, translation-ready, blog, business, portfolio
+
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */

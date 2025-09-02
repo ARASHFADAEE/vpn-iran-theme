@@ -3,7 +3,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="section-heading text-center">
-                            <h2>با تمام ویژگی های مورد نیاز شما</h2>
+                            <h2><?php echo esc_html(get_theme_mod('vpn_iran_features_title', 'با تمام ویژگی های مورد نیاز شما')); ?></h2>
                             <p> به طور قابل اعتماد رشد ایده های برتر به جای آجر و کلیک کنید مناطق استراتژیک استراتژیک توزیع شده برای آمادگی وب مستقل است. </p>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-﻿<?php get_template_part( '/partials/head', 'head' )?>
+<?php get_template_part( '/partials/head', 'head' )?>
 
 <?php get_header()?>
 <body>
@@ -25,7 +25,7 @@
                             <h1 class="display-5 fw-bold">صفحه پیدا نشد</h1>
                             <p class="lead"> به طور کارآمد سناریوهای نسل بعدی بدون شبکه های متمرکز را دوباره اختراع کنید. به صورت مشارکتی ، فناوری برتر را قبل از پتانسیل های قوی تولید کنید. </p>
 
-                            <a href="index.html" class="btn btn-primary mt-4">برگشت به خانه</a>
+                            <a href="<?php echo esc_url(home_url('/')); ?>" class="btn btn-primary mt-4">برگشت به خانه</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-8 mt-5 d-none d-md-block d-lg-block">

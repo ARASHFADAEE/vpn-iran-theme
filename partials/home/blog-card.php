@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
-                            <a href="<?php echo get_home_url()?>/blog" class="btn btn-primary">مشاهده همه مقالات</a>
+                            <a href="<?php echo esc_url(home_url('/blog')); ?>" class="btn btn-primary">مشاهده همه مقالات</a>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,11 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-article rounded-custom mb-4 mb-lg-0">
                                     <a href="<?php the_permalink() ?>" class="article-img">
-                                        <?php the_post_thumbnail('large', ['class' => 'img-fluid', 'title' => 'Feature image']) ?>
+                                        <?php if (has_post_thumbnail()) : ?>
+                                            <?php the_post_thumbnail('large', ['class' => 'img-fluid', 'alt' => get_the_title()]); ?>
+                                        <?php else : ?>
+                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/blog/default-blog.jpg'); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" class="img-fluid">
+                                        <?php endif; ?>
                                     </a>
                                     <div class="article-content p-4">
                                         <div class="article-category mb-4 d-block">

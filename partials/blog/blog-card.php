@@ -6,11 +6,15 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-article rounded-custom my-3">
                                     <a href="<?php the_permalink() ?>" class="article-img">
-                                        <img src="<?php the_post_thumbnail_url() ?>" alt="article" class="img-fluid">
+                                        <?php if (has_post_thumbnail()) : ?>
+                                            <?php the_post_thumbnail('large', ['class' => 'img-fluid', 'alt' => get_the_title()]); ?>
+                                        <?php else : ?>
+                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/blog/default-blog.jpg'); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" class="img-fluid">
+                                        <?php endif; ?>
                                     </a>
                                     <div class="article-content p-4">
                                         <div class="article-category mb-4 d-block">
-                                            <a href="<?php the_permalink() ?>" class="d-inline-block text-dark badge bg-warning-soft"><?php echo get_category_name() ?></a>
+                                            <a href="<?php the_permalink() ?>" class="d-inline-block text-dark badge bg-warning-soft"><?php echo esc_html(get_category_name()); ?></a>
                                         </div>
                                         <a href="<?php the_permalink() ?>">
                                             <h2 class="h5 article-title limit-2-line-text"><?php the_title() ?></h2>

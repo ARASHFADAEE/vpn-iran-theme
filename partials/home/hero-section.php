@@ -3,8 +3,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h1 class="fw-bold display-5">وی پی ان ایران بدون محدودیت</h1>
-                            <p class="lead"> خرید vpn ایران بدون محدودیت و بدون مشکل در اتصال </p>
+                            <h1 class="fw-bold display-5"><?php echo esc_html(get_theme_mod('vpn_iran_hero_title', 'وی پی ان ایران بدون محدودیت')); ?></h1>
+                            <p class="lead"><?php echo esc_html(get_theme_mod('vpn_iran_hero_description', 'خرید vpn ایران بدون محدودیت و بدون مشکل در اتصال')); ?></p>
                             <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                                 <a href="#price" class="btn btn-primary me-3">خرید سرویس</a>
                             </div>
